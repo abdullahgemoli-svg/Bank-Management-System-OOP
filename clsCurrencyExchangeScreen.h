@@ -10,6 +10,7 @@
 using namespace std;
 
 
+
 class clsCurrencyExchangeScreen :protected clsScreen
 {
 
@@ -38,7 +39,7 @@ private:
 	{
 		clsCurrenciesListScreen::ShowCurrenciesListScreen();
 	}
-	
+
 	static void _ShowCurrenciesFindScreen()
 	{
 		clsFindCurrenciesScreen::ShowFindCurrencyScreen();

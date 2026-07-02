@@ -129,11 +129,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\MyLibraryC++\MyLibraryC++\MyLibraryC++.vcxproj">
-      <Project>{2bd7e914-633c-4e41-9854-d7f23d2808bd}</Project>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="clsAddNewClientScreen.h" />
     <ClInclude Include="clsAddNewUserScreen.h" />
     <ClInclude Include="clsBankClient.h" />
@@ -158,6 +153,7 @@
     <ClInclude Include="clsPerson.h" />
     <ClInclude Include="clsScreen.h" />
     <ClInclude Include="clsString.h" />
+    <ClInclude Include="clsTemplate.h" />
     <ClInclude Include="clsToatlBalanceScreen.h" />
     <ClInclude Include="clsTransactionsScreen.h" />
     <ClInclude Include="clsTransferLogListScreen.h" />

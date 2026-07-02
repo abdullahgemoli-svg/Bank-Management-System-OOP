@@ -5,7 +5,6 @@
 #include"clsPerson.h"
 #include"clsString.h"
 
-
 #include<vector>
 #include<fstream>
 #include"clsBankClient.h"
@@ -62,7 +61,6 @@ private:
 
     static string _ConverUsersObjectToLine(clsUsres User, string Seperator = "#//#")
     {
-
         string UserRecord = "";
         UserRecord += User.FirstName + Seperator;
         UserRecord += User.LastName + Seperator;
@@ -73,7 +71,6 @@ private:
         UserRecord += to_string(User.Permissions);
 
         return UserRecord;
-
     }
 
     static  vector <clsUsres> _LoadUsersDataFromFile()
